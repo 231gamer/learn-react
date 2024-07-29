@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 229, 229);
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item > li {
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: aliceblue;
+}
+.footer > small {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
