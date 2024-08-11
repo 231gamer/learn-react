@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* background-color: red;  */
+    color: white;
+}
+
+ /* App Js Style  */
+.app-container {
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px 10px;
+    width: 517px;
+    height: 1000px;
+    background-color: rgb(0, 24, 59); 
+}
+.app-container-two {
+    border-radius: 10px;    
+    margin: 20px auto;
+    background-color: rgb(4, 40, 66);
+    /* border: 1px solid white;  */
+    width: 317px;
+    height: 727px;
+}
+
+/* Header Js Style  */
+
+.header-container > img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 317px;
+    height: 270px;
+}
+
+/* Main Js Style  */
+.main-container {
+    line-height: 1.08em;
+    /* border-top-left-radius: 9px;
+    border-top-right-radius: 9px; */
+}
+.main-heading {
+    font-size: 27px;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.main-h4-one {
+    font-size: 15px;
+    text-align: center; 
+    margin-top: 0px;
+    color: rgb(255, 204, 0);
+}
+.main-span-two {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.main-btn {
+    width: 115px;
+    height: 37px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    align-items: center;
+}
+
+.btn-email {
+    background-color: white;
+    color: black;
+    display: flex; 
+    font-size: 16px;
+    margin-left: 22px;
+    padding: 0px 18px; 
+}
+.btn-linkedin {
+    background-color: rgb(46, 46, 198);
+    color: white;
+    display: flex; 
+    font-size: 16px;
+    margin-right: 22px;
+    padding: 5px 12px;
+}
+.email {
+    height: 20px;
+    margin: 3px;
+}
+.linkedin {
+    height: 20px;
+    margin: 3px;
+}
+
+.main-about-interest {
+    width: 247px;
+    height: 246px;
+    padding: 10px;
+    margin: 5px auto;
+    border: 2px solid white;
+    font-size: 12px;
+    line-height: 1.08em;
+    overflow: hidden;
+    padding-bottom: 4px;
+}
+
+.main-about-interest > p {
+    font-size: 11px;
+    text-align: justify;
+    word-spacing: 0.5em;
+}
+.main-about-interest > h3 {
+    margin-bottom: 3px;
+    margin-top: 4px;
+}
+
+/* Footer Js Style  */
+.footer-container {
+    width: 317px;
+    height: 64px;
+    background-color: rgb(0, 42, 105);
+}
+
+.footer-image {
+    height: 30px;
+    filter: brightness(2);
+    margin: 10px;
+}
+.footer-items {
+    margin: 5px 55px;
+}
